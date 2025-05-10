@@ -52,10 +52,6 @@
           openFirewall = true;
         };
       };
-      plasma6 = { ... }: {
-        # Enable KDE Plasma 6
-        services.desktopManager.plasma6.enable = true;
-      };
     };
   };
 }
